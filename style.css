@@ -15,6 +15,12 @@ body {
     line-height: 1.6;
 }
 
+/* CSS Variables for background toggle */
+:root {
+    --hero-start: #0284c7;
+    --hero-middle: #1e3a8a;
+    --hero-end: #0f172a;
+}
 
 /* =========================
    NAVIGATION
@@ -75,9 +81,9 @@ nav h2 {
 
     background: linear-gradient(
         135deg,
-        #0f172a,
-        #1e3a8a,
-        #0284c7
+        var(--hero-start),
+        var(--hero-middle),
+        var(--hero-end)
     );
 
     color: white;
