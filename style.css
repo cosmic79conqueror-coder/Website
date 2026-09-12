@@ -27,8 +27,6 @@ body {
 ========================= */
 
 nav {
-    position: fixed;
-    top: 0;
     width: 100%;
 
     display: flex;
@@ -39,8 +37,6 @@ nav {
 
     background: #111827;
     color: white;
-
-    z-index: 1000;
 }
 
 nav h2 {
