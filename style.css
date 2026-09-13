@@ -1,5 +1,4 @@
-﻿/* General Setup */
-body {
+﻿body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -9,7 +8,6 @@ body {
     scroll-behavior: smooth;
 }
 
-/* Navigation */
 nav {
     background: #111827;
     color: white;
@@ -29,22 +27,21 @@ nav h2 {
     font-weight: bold;
 }
 
-/* Sections */
+
 section {
     padding: 80px 20px;
 }
 #home {
-    background: #e0f2fe; /* Light blue */
+    background: #e0f2fe;
 }
 #about {
-    background: #f8fafc; /* Very light gray */
+    background: #f8fafc;
 }
 #contact {
-    background: #1e293b; /* Dark slate */
+    background: #1e293b;
     color: white;
 }
 
-/* Specific Elements */
 .info-list {
     list-style: none;
     padding: 0;
@@ -58,7 +55,6 @@ a {
     text-decoration: none;
 }
 
-/* Footer */
 footer {
     background: #0f172a;
     color: #94a3b8;
