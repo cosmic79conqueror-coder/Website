@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "hooks": {
+    "preToolUse": [
+      {
+        "command": "node .cursor/hooks/human-coder-block-write.mjs",
+        "matcher": "Write|StrReplace|ApplyPatch|Delete|EditNotebook",
+        "failClosed": true
+      }
+    ],
+    "beforeShellExecution": [
+      {
+        "command": "node .cursor/hooks/human-coder-block-write.mjs",
+        "failClosed": false
+      }
+    ],
+    "beforeSubmitPrompt": [
+      {
+        "command": "node .cursor/hooks/human-coder-block-write.mjs",
+        "failClosed": false
+      }
+    ]
+  }
+}
