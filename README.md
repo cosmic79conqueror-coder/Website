@@ -1,27 +1,24 @@
-# JEE Aspirant Portfolio
+# Neon Cyberpunk Personal Portfolio 🚀
 
-A clean, modern, and responsive single-page personal portfolio website designed for a JEE aspirant. Built with basic HTML and CSS.
+A high-energy, fully responsive personal portfolio website designed for a PCM student and JEE Aspirant. This project features a cyberpunk-inspired aesthetic with dynamic neon glowing accents and glassmorphism cards, built entirely with pure HTML and CSS—**no JavaScript required.**
 
-## Structure
-- `index.html` - Main structure containing Home, About, and Contact sections.
-- `style.css` - Simple, lightweight styling without heavy animations or gradients.
+## ✨ Features
 
-## Features
-- **Modern Dark UI:** A sleek, tech-focused dark theme with bright accent colors.
-- **Responsive Design:** Optimized for both desktop and mobile devices.
-- **Smooth Navigation:** Sticky frosted-glass navigation bar with smooth scrolling between sections.
-- **Interactive Elements:** Hover effects on cards and links for better user engagement.
+* **Zero JavaScript:** Fast, lightweight, and easy to host with strictly HTML and CSS.
+* **Neon & Glassmorphism UI:** Translucent frosted-glass cards combined with intense `--neon-cyan` and `--neon-pink` glowing effects.
+* **Modern Layouts:** Utilizes CSS Flexbox and Grid for a clean, structured display of academic profile and interests.
+* **Fully Responsive:** Optimized for both desktop and mobile viewing with a collapsing navigation menu and fluid grids that adapt to any screen size.
+* **Custom Styling:** Smooth CSS hover states, glowing text shadows, and custom fonts.
 
-## Technologies Used
-* HTML5
-* CSS3 (Flexbox, CSS Variables, Backdrop Filters)
+## 🛠️ Technologies Used
 
-## Project Structure
-- `index.html` - Main structure containing Home, About, and Contact sections.
-- `style.css` - Simple, lightweight styling without heavy animations or gradients.
+* **HTML5:** Semantic structure and layout.
+* **CSS3:** Custom variables, flexbox, CSS grid, backdrop-filters for glassmorphism, and responsive media queries.
 
-## How to Use
-1. Download or clone this repository to your local machine.
-2. Ensure both `index.html` and `style.css` are in the same folder.
-3. Open `index.html` in any modern web browser (Chrome, Firefox, Safari, Edge) to view the website.
-4. To customize the portfolio, simply open `index.html` in a text editor (like VS Code or Notepad) and replace the placeholder text with your own details.
+## 📁 File Structure
+
+```text
+/neon-portfolio
+│
+├── index.html       # Main HTML file containing the structure
+└── style.css        # Stylesheet containing the neon theme, fonts, and layouts
